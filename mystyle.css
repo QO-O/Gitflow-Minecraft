@@ -1,0 +1,30 @@
+/* reset */
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body {
+  background-color: rgb(201, 207, 202);
+}
+
+header{
+  font-size: 8rem;
+  text-align: center;
+}
+
+article{
+font-size: 2rem;
+}
+
+footer{
+  font-size: 1.9rem;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+}
