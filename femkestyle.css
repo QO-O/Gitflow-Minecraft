@@ -1,0 +1,64 @@
+/* reset */
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body {
+  background-color: rgb(201, 207, 202);
+}
+
+header{
+  font-size: 8rem;
+  text-align: center;
+}
+
+article{
+font-size: 2rem;
+}
+
+.modding-types {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 0.8rem;
+}
+    
+.ScriptMods {
+    grid-column: span 2 / span 2;
+    grid-row: span 5 / span 5;
+    border-radius: 0.8rem;
+    border-style: dashed;
+    border-color: white;
+}
+
+.DataPacks {
+    grid-row: span 3 / span 3;
+    grid-column-start: 3;
+    grid-row-start: 2;
+    border-radius: 0.8rem;
+    border-style: dashed;
+    border-color: white;
+}
+
+.ResourcePacks {
+    grid-column: span 2 / span 2;
+    grid-row: span 3 / span 3;
+    grid-column-start: 4;
+    grid-row-start: 1;
+    border-radius: 0.8rem;
+    border-style: dashed;
+    border-color: white;
+}
+
+footer{
+  font-size: 1.9rem;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+}
